@@ -1,0 +1,17 @@
+TESTES EXECUTADOS
+
+- 7 páginas HTML verificadas.
+- 0 links internos quebrados.
+- 0 imagens sem atributo alt.
+- 0 IDs duplicados.
+- 1 H1 por página institucional.
+- JSON-LD validado por parser JSON.
+- JavaScript validado com `node --check`.
+- CSS validado com `tinycss2`: 0 erros de parsing.
+- Assets locais verificados.
+- Breakpoints definidos para desktop, tablet, 680px e 380px.
+- `prefers-reduced-motion` implementado.
+- Navegação principal funciona sem dependência de framework.
+
+Observação:
+O Chromium headless do ambiente não concluiu a captura de tela; portanto não há alegação de teste visual em navegador real. A estrutura responsiva foi revisada por código e renderização estática de apoio. Recomenda-se uma última conferência em dispositivo real antes da publicação definitiva.
